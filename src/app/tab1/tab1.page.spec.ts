@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
+import { CabecalhoComponent } from '../componentes/cabecalho/cabecalho.component';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { Tab1Page } from './tab1.page';
@@ -20,6 +21,12 @@ describe('Tab1Page', () => {
   }));
 
   it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+
+  it('should CabecalhoComponentLoaded', () => {
+    
+
     expect(component).toBeTruthy();
   });
 });
